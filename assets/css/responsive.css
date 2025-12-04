@@ -1,0 +1,411 @@
+@media all and (min-width: 1670px) {
+
+}
+
+@media (max-width: 1380px){
+
+}
+
+@media (max-width: 1200px){
+
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+	
+}
+
+@media all and (max-width: 992px){
+	.navbar-dark .navbar-toggler{
+		color: #fff;
+		background-color: var(--theme-color-1);
+		width: 50px;
+		height: 50px;
+		border-radius: 6px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.navbar-collapse{
+		position: absolute;
+		top: 77px;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: 999;
+		padding: 15px;
+		max-height: calc(100vh - 143px);
+		overflow: auto;
+	}
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: var(--heading-color);
+	}
+
+	.navbar-nav .dropdown-menu{
+		box-shadow: none;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu{
+		box-shadow: none;
+	}
+
+	.dropdown .nav-link:after{
+		float: right;
+	}
+
+	.nav-item.search{
+		margin-top: 20px;
+	}
+
+	/* home */
+	.weoffer-content-head{
+		margin-right: 6rem;
+	}
+	.weoffer-car{
+		right: -5rem;
+	}
+	.request-info-form{
+		padding: 20px;
+	}
+	.wedo-car-overlay img {
+		width: 100%;
+		max-width: 100%;
+	}
+	.weoffer-funfactor ul li{
+		margin-bottom: 15px;
+	}
+	.carwash1-content{
+		margin-right: 0rem;
+	}
+
+	/* services */
+	.main-services-card{
+		flex-direction: column;
+	}
+	.main-services-img{
+		min-width: 100%;
+    	width: 100%;
+	}
+}
+
+@media all and (max-width: 768px){
+	.navbar-dark .navbar-toggler{
+		color: #fff;
+		background-color: var(--theme-color-1);
+		width: 50px;
+		height: 50px;
+		border-radius: 6px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+
+	.navbar-collapse{
+		position: absolute;
+		top: 77px;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: 999;
+		padding: 15px;
+		max-height: calc(100vh - 143px);
+		overflow: auto;
+	}
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: var(--heading-color);
+	}
+
+	.navbar-nav .dropdown-menu{
+		box-shadow: none;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu{
+		box-shadow: none;
+	}
+
+	.slick-list {
+		margin: 0 0px;
+	}
+	
+	.topbar-contact{
+		flex-direction: column;
+	}
+	
+	.topbar-contact li:first-child{
+		border: none;
+	}
+
+	.topbar-contact li{
+		margin-left: 0px;
+		margin-bottom: 5px;
+	}
+
+	.topbar-info-wrapper p{
+		margin-bottom: 5px;
+	}
+
+	/* home */
+	.weoffer-car{
+		right:0;
+	}
+	.weoffer-content-head{
+		margin-right: 0;
+	}
+	.request-info-form{
+		margin-top: 0;
+	}
+	.weoffer-funfactor ul{
+		width: 100%;
+		float: left;
+	}
+	.weoffer-funfactor ul li{
+		width: 50%;
+		float: left;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.wedo-car-overlay{
+		right: 0;
+		position: relative;
+	}
+	.wedo-car-overlay img {
+		width: 100%;
+		max-width: 100%;
+	}
+	.carwash1-content{
+		margin-right: 0;
+	}
+	.repair-wash{
+		padding-top: 6rem;
+	}
+
+	/* the slides */
+	.testimonial .slick-slide {
+		margin: 0 0rem;
+	}
+
+	/* the parent */
+	.testimonial .slick-list {
+		margin: 0 -0rem;
+	}
+
+	.masonary-img2{
+		height: 100%;
+	}
+	.masonary-img2 .img2-top{
+		width: 100%;
+	}
+	.masonary-img2 .img2-bottom{
+		position: relative;
+	}
+	.masonary-img1 .img1-bottom{
+		margin-bottom: 20px;
+	}
+	.testimonial-author-avatar {
+		left: 10%;
+	}
+	.topbar-contact li:first-child{
+		padding-right: 0;
+	}
+	.topbar-contact{
+		align-items: flex-start;
+	}
+	.topbar-social-wrapper ul li a{
+		width: 30px;
+    	height: 30px;
+	}
+	.topbar-social-wrapper ul li{
+		margin-left: 0;
+	}
+	.topbar .container::after{
+		width: 50%;
+	}
+	.topbar-social-wrapper{
+		height: 100%;
+		align-items: center;
+	}
+	.carwash1-img{
+		height: 100%;
+	}
+	.repair-wash-img img{
+		height: 100%;
+	}
+
+	.theme-btn{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.brands-card-wrapper img{
+		width: 180px;
+	}
+
+}
+
+@media all and (max-width: 480px){
+	.navbar-dark .navbar-toggler{
+		color: #fff;
+		background-color: var(--theme-color-1);
+		width: 50px;
+		height: 50px;
+		border-radius: 6px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.navbar-collapse{
+		position: absolute;
+		top: 66px;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: 999;
+		padding: 15px;
+		max-height: calc(100vh - 143px);
+		overflow: auto;
+	}
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: var(--heading-color);
+	}
+
+	.navbar-nav .dropdown-menu{
+		box-shadow: none;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu{
+		box-shadow: none;
+	}
+
+	.slick-list {
+		margin: 0 0px;
+	}
+	
+	.topbar-contact{
+		flex-direction: column;
+	}
+	
+	.topbar-contact li:first-child{
+		border: none;
+	}
+
+	.topbar-contact li{
+		margin-left: 0px;
+		margin-bottom: 5px;
+	}
+
+	.topbar-info-wrapper p{
+		margin-bottom: 5px;
+	}
+
+	/* home */
+	.weoffer-car{
+		right:0;
+	}
+	.weoffer-content-head{
+		margin-right: 0;
+	}
+	.request-info-form{
+		margin-top: 0;
+	}
+	.weoffer-funfactor ul{
+		width: 100%;
+		float: left;
+	}
+	.weoffer-funfactor ul li{
+		width: 50%;
+		float: left;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.wedo-car-overlay{
+		right: 0;
+		position: relative;
+	}
+	.wedo-car-overlay img {
+		width: 100%;
+		max-width: 100%;
+	}
+	.carwash1-content{
+		margin-right: 0;
+	}
+	.repair-wash{
+		padding-top: 6rem;
+	}
+
+	/* the slides */
+	.testimonial .slick-slide {
+		margin: 0 0rem;
+	}
+
+	/* the parent */
+	.testimonial .slick-list {
+		margin: 0 -0rem;
+	}
+
+	.masonary-img2{
+		height: 100%;
+	}
+	.masonary-img2 .img2-top{
+		width: 100%;
+	}
+	.masonary-img2 .img2-bottom{
+		position: relative;
+	}
+	.masonary-img1 .img1-bottom{
+		margin-bottom: 20px;
+	}
+	.testimonial-author-avatar {
+		top: 6%;
+		left: 30%;
+		z-index: 10;
+		transform: translate(-50%, -50%);
+	}
+	.topbar-contact li:first-child{
+		padding-right: 0;
+	}
+	.topbar-contact{
+		align-items: flex-start;
+	}
+	.topbar-social-wrapper ul li a{
+		width: 30px;
+    	height: 30px;
+	}
+	.topbar-social-wrapper ul li{
+		margin-left: 0;
+	}
+	.topbar .container::after{
+		width: 50%;
+	}
+	.topbar-social-wrapper{
+		height: 100%;
+		align-items: center;
+	}
+	.carwash1-img{
+		height: 100%;
+	}
+	.repair-wash-img img{
+		height: 100%;
+	}
+
+	/* services */
+	.main-services-card{
+		flex-direction: column;
+	}
+	.main-services-img{
+		min-width: 100%;
+		width: 100%;
+	}
+
+	/* error page */
+	.soon-counter-list{
+		flex-direction: column;
+	}
+}

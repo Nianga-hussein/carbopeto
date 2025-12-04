@@ -1,0 +1,752 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Car Bopeto – Lavage auto à domicile</title>
+	<link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg">
+	<meta charset="UTF-8">
+	<meta name="description" content="HTML Templates">
+	<meta name="keywords" content="CarWash">
+	<meta name="author" content="Pentabay">
+	<meta name="viewport" content="width=device-width">
+	<!-- Icon link -->
+	<link rel="stylesheet" href="icon?family=Material+Icons">
+	<link rel="stylesheet" href="ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Style link -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.css">
+    <!-- slick slider -->
+	<link rel="stylesheet" href="ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+	<link rel="stylesheet" href="ajax/libs/slick-carousel/1.9.0/slick.min.css">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/responsive.css"> 
+</head>
+<body>
+
+    <button onclick="topFunction()" id="backTop" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+    <div id="loading"> <img id="loading-image" src="assets/images/loader.svg" alt="Loading..."> </div>
+
+    <!--header-->
+    <header> 
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-8 col-lg-7">
+                        <ul class="topbar-contact">
+                            <li>
+                                <a href="#"><i class="fa fa-envelope"></i> info@company.com</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-phone"></i> 111-222-3333</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-5">
+                        <div class="topbar-social-wrapper">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>       
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+             <a class="navbar-brand" href="index.html">
+                <img class="img-fluid" src="assets/images/logo.png" alt="img">
+                <!-- <h3><span>Car</span>Wash</h3> -->
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="fa fa-bars"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="main_nav">
+               <ul class="navbar-nav me-auto ms-auto">
+                
+                    <li class="nav-item">
+                        <a class="nav-link " href="pages/about-us.html">  À propos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="pages/services.html">  Services </a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" data-bs-toggle="dropdown">  Pages  </a>
+                        <ul class="dropdown-menu animate slideIn">
+                        <li><a class="dropdown-item" href="pages/our-team.html"> Notre équipe</a></li>
+                        <li><a class="dropdown-item" href="pages/error.html"> Erreur 404 </a></li>
+                        <li><a class="dropdown-item" href="pages/faq.html"> FAQ </a></li>
+                        <li><a class="dropdown-item" href="pages/coming-soon.html"> Bientôt disponible </a></li>
+                        <li><a class="dropdown-item" href="pages/terms-and-conditions.html"> Termes et conditions </a></li>
+                        <li><a class="dropdown-item" href="pages/privacy-policy.html"> Politique de confidentialité </a></li>
+                        <li><a class="dropdown-item" href="pages/service-detail.html"> Détails du service </a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="pages/testimonial.html">  Témoignages </a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="pages/gallery.html"> Galerie </a></li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="pages/our-team.html">  Team </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="pages/contact-us.html">  Contact </a>
+                    </li>
+                </ul>
+                
+                <div class="nav-item search m-0">
+                    <a class="theme-btn btn-main" href="https://bopeto.vercel.app/">Réserver</a>
+                </div>
+             </div> <!-- navbar-collapse.// -->
+            </div> <!-- container-fluid.// -->
+        </nav>
+    </header>
+
+    <!-- content -->
+    <div class="main-content-wrapper">
+        <!-- banner -->
+        <div class="banner-section">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 col-md-6 h-100">
+                        <div class="banner-section-inner">
+                            <h4 class="banner-small-heading">Lavage auto à domicile</h4>
+                            <h1 class="banner-main-heading">Bopeto vient chez vous<br>maison, bureau ou parking</h1>
+                            <p class="banner-description">Service mobile : lavage extérieur, aspiration et nettoyage intérieur. Simple, rapide, à votre adresse.</p>
+                            <div class="btn-block banner">
+                                <a href="https://bopeto.vercel.app/" class="theme-btn btn-main">Réserver à domicile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- we offer -->
+        <div class="we-offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <div class="weoffer-content">
+
+                            <div class="weoffer-content-top">
+                                <div class="weoffer-car">
+                                    <img src="assets/images/weoffer-img.png" class="img-fluid" alt="img">
+                                </div>
+                                <div class="weoffer-content-head">
+                                    <h4>Nos Formules</h4>
+                                    <h2>Formules Bopeto : Lavage, Aspiration et Nettoyage</h2>
+                                </div>
+                                
+                                <p>Profitez d’un service de lavage complet : lavage extérieur, aspiration et nettoyage intérieur, avec des suppléments (salon, plafonnier, mal arrière, effet brillant). Service rapide et à domicile. Pick-up / 4x4 et utilitaires : supplément selon gabarit.</p>
+                            </div>
+                            
+                            <div class="weoffer-content-bottom">
+                                <div class="weoffer-funfactor">
+                                    <ul>
+                                        <li class="funfactor-item">
+                                            <div class="funfactor-inner">
+                                                <h3>520+</h3>
+                                                <h4>Clients satisfaits</h4>
+                                            </div>
+                                        </li>
+                                        <li class="funfactor-item">
+                                            <div class="funfactor-inner">
+                                                <h3>780+</h3>
+                                                <h4>Véhicules nettoyés</h4>
+                                            </div>
+                                        </li>
+                                        <li class="funfactor-item">
+                                            <div class="funfactor-inner">
+                                                <h3>20+</h3>
+                                                <h4>Années d’expérience</h4>
+                                            </div>
+                                        </li>
+                                        <li class="funfactor-item">
+                                            <div class="funfactor-inner">
+                                                <h3>45+</h3>
+                                                <h4>Récompenses</h4>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="request-info-form">
+                            <span class="line"></span>
+                            <h3>Request Information</h3>
+
+                            <form>
+                                <div class="row">
+                                    <div class="col-12 col-md-12">
+                                        <div class="request-form-group">
+                                            <label class="request-form-label">Enter Name</label>
+                                            <input class="request-form-input" type="text" placeholder="Your Best Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="request-form-group">
+                                            <label class="request-form-label">Enter Email <span>*</span></label>
+                                            <input class="request-form-input" type="email" id="txtcontact" name="user_email" placeholder="Your Email Address">
+
+                                            <div class="error-msg-contact" id="error">
+                                                <p>Invalid email address</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="request-form-group">
+                                            <label class="request-form-label">Enter Number</label>
+                                            <input class="request-form-input" type="text" placeholder="Your Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="submit-btn-block">
+                                            <button type="button" id="demoContact" class="theme-btn btn-main">Submit Request</button>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- we do -->
+        <div class="section wedo">
+            <div class="wedo-car-overlay">
+                <img src="assets/images/wedo-img.png" class="img-fluid" alt="img">
+            </div>
+            <div class="container">
+                <div class="row mt-4 mb-5">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="wedo-heading-wrapper">
+                            <h4>Ce que nous faisons</h4>
+                            <h2>Formules de lavage Bopeto</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="wedo-card">
+                            <img class="img-fluid" src="assets/images/car-wash.png" alt="img">
+                            <h3>Lavage extérieur</h3>
+                            <p>Nettoyage complet de la carrosserie et des jantes pour un rendu impeccable.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="wedo-card">
+                            <img class="img-fluid" src="assets/images/car-wash.png" alt="img">
+                            <h3>Aspiration intérieur</h3>
+                            <p>Aspiration soignée des tapis, sièges et coffres pour un habitacle propre.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="wedo-card">
+                            <img class="img-fluid" src="assets/images/car-wash.png" alt="img">
+                            <h3>Nettoyage intérieur</h3>
+                            <p>Nettoyage des surfaces, plastiques et vitres pour une finition nette.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="wedo-card">
+                            <img class="img-fluid" src="assets/images/car-wash.png" alt="img">
+                            <h3>Suppléments</h3>
+                            <p>Salon, plafonnier, mal arrière, effet brillant. Service disponible à domicile.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pricing -->
+        <div class="section" id="tarifs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="section-heading">
+                            <h2>Plans tarifaires Bopeto</h2>
+                            <p>À domicile – chaque formule à partir de <strong>5&nbsp;000f</strong>. Pick-up / 4x4 et utilitaires : supplément selon gabarit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="wedo-card">
+                            <img class="img-fluid" src="assets/images/car-wash.png" alt="img">
+                            <h3>Formule Lavage</h3>
+                            <p>Lavage extérieur complet: carrosserie, jantes et vitres.</p>
+                            <h4>5&nbsp;000f</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="wedo-card">
+                            <img class="img-fluid" src="assets/images/car-wash.png" alt="img">
+                            <h3>Formule Aspiration</h3>
+                            <p>Aspiration intérieure: tapis, sièges et coffre.</p>
+                            <h4>5&nbsp;000f</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="wedo-card">
+                            <img class="img-fluid" src="assets/images/car-wash.png" alt="img">
+                            <h3>Formule Nettoyage</h3>
+                            <p>Nettoyage intérieur: plastiques, surfaces et vitres.</p>
+                            <h4>5&nbsp;000f</h4>
+                            <p><strong>Suppléments</strong> : salon, plafonnier, mal arrière, effet brillant.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- wash -->
+        <div class="section wash1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 offset-lg-1 col-lg-5 mb-4">
+                        <div class="carwash1-content">
+                            <h2>Lavage et réparation<br>flexibles</h2>
+
+                            <div class="carwash1-points-list">
+                                <div class="carwash1-points-item">
+                                    <h3>Approche orientée système</h3>
+                                    <p>Processus maîtrisés et outils adaptés pour un résultat constant.</p>
+                                </div>
+                                <div class="carwash1-points-item">
+                                    <h3>Freinage d’urgence automatique</h3>
+                                    <p>Sécurité et fiabilité, même lors des interventions rapides.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="carwash1-img">
+                            <img src="assets/images/carwash1-imag.jpg" class="img-fluid" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- reservation promo (ex repair-wash) -->
+        <div class="section repair-wash">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="repair-wash-img">
+                            <img src="assets/images/carWash-1.jpg" class="img-fluid" alt="Lavage auto à domicile">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="repair-wash-content">
+                            <h2>Lavage auto à domicile<br>simple et pratique</h2>
+                            <p>Nous venons là où vous êtes : maison, bureau ou parking privé. Formules claires à partir de <strong>5 000f</strong> pour lavage extérieur, aspiration et nettoyage intérieur.</p>
+                            <div class="btn-block-repair">
+                                <a href="https://bopeto.vercel.app/" class="theme-btn btn-main">Réserver maintenant</a>
+                            </div>
+
+                            <!-- redirection only: formulaire retiré -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- wash -->
+        <div class="section wash1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 offset-lg-1 col-lg-5 mb-4">
+                        <div class="carwash1-content">
+                            <h2>Peinture auto & consommables</h2>
+
+                            <div class="carwash1-points-list">
+                                <div class="carwash1-points-item">
+                                    <h3>Couleurs multiples</h3>
+                                    <p>Large palette pour s’adapter à vos envies et vos besoins.</p>
+                                </div>
+                                <div class="carwash1-points-item">
+                                    <h3>Couleurs personnalisées avancées</h3>
+                                    <p>Finitions sur mesure et effets spéciaux pour un rendu premium.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="masonary-img1">
+                                    <img src="assets/images/img1-top.jpg" class="img-fluid img1-top" alt="img">
+                                    <img src="assets/images/img1-bottom.jpg" class="img-fluid img1-bottom" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="masonary-img2">
+                                    <img src="assets/images/img2-top.jpg" class="img-fluid img2-top" alt="img">
+                                    <img src="assets/images/img2-bottom.jpg" class="img-fluid img2-bottom" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- brands -->
+        <div class="section brands">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="section-heading">
+                            <h2>Nous couvrons toutes les marques</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-3 col-lg-2 mb-4">
+                        <div class="brands-card-wrapper">
+                            <img class="img-fluid" src="assets/images/brand1.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 mb-4">
+                        <div class="brands-card-wrapper">
+                            <img class="img-fluid" src="assets/images/brand2.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 mb-4">
+                        <div class="brands-card-wrapper">
+                            <img class="img-fluid" src="assets/images/brand3.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 mb-4">
+                        <div class="brands-card-wrapper">
+                            <img class="img-fluid" src="assets/images/brand4.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 mb-4">
+                        <div class="brands-card-wrapper">
+                            <img class="img-fluid" src="assets/images/brand5.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-2 mb-4">
+                        <div class="brands-card-wrapper">
+                            <img class="img-fluid" src="assets/images/brand6.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- testimonila -->
+        <div class="section testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="section-heading">
+                            <h2>Découvrez la simplicité</h2>
+                            <p>Nos clients adorent notre service</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-10">
+                        <div class="testimonial-wrapper">
+                            <div class="carosel-root">
+                                <div class="carosel testimonial">
+                                    <!-- item 1 -->
+                                    <div class="carosel-item item">
+                                        <div class="testimonial-content-wrapper">
+                                            <div class="testimonial-author-avatar">
+                                                <img src="assets/images/dwayne-the-rock-.jpg" class="img-fluid" alt="img">
+                                            </div>
+                                            <div class="testimonial-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-author-info">
+                                                <h3>Dwayne Rock</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur 
+                                                    adipiscing elit, sed do eiusmod tempor 
+                                                    incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- item2 -->
+                                    <div class="carosel-item item">
+                                        <div class="testimonial-content-wrapper">
+                                            <div class="testimonial-author-avatar">
+                                                <img src="assets/images/our-team-1.jpg" class="img-fluid" alt="img">
+                                            </div>
+                                            <div class="testimonial-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-author-info">
+                                                <h3>William Smith</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur 
+                                                    adipiscing elit, sed do eiusmod tempor 
+                                                    incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- item3 -->
+                                    <div class="carosel-item item">
+                                        <div class="testimonial-content-wrapper">
+                                            <div class="testimonial-author-avatar">
+                                                <img src="assets/images/our-team-2.jpg" class="img-fluid" alt="img">
+                                            </div>
+                                            <div class="testimonial-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-author-info">
+                                                <h3>John Doe</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur 
+                                                    adipiscing elit, sed do eiusmod tempor 
+                                                    incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="carosel-arrow d-none d-md-block d-lg-block">
+                                    <button type="button" class="carosel-nav carosel-nav-left-testi"><i class="fa fa-angle-left"></i></button>
+                                    <button type="button" class="carosel-nav carosel-nav-right-testi"><i class="fa fa-angle-right"></i></button>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- get it -->
+        <div class="section getit">
+            <div class="getit-overlay">
+                <img src="assets/images/getit-layer-img.png" class="img-fluid" alt="img">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="section-heading">
+                            <img src="assets/images/apps-icon.png" class="img-fluid" alt="img">
+                            <h2>Téléchargez l’application</h2>
+                            <p>Téléchargez notre nouvelle application pour rester informé</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="getit-apps">
+                            <img src="assets/images/google-play.png" class="img-fluid" alt="img">
+                            <img src="assets/images/appstore.png" class="img-fluid appstore" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center mt-4">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="section-heading">
+                            <h2>Abonnez-vous à la newsletter</h2>
+                            <p>Recevez nos offres et mises à jour directement par e‑mail.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-5 col-lg-5">
+                        <div class="subscribe-form-wrapper">
+                            <form>
+                                <div class="subscribe-form-group">
+                                    <input class="subscribe-form-input" type="text" placeholder="Adresse e‑mail">
+                                    <button type="submit" class="subscribe-form-submit">S’abonner</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="top-footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="footer-about">
+                            <div class="footer-col-heading">
+                                <h3>Car Bopeto</h3>
+                                <span class="line"></span>
+                            </div>
+                            <div class="footer-body">
+                                <p>Lavage auto à domicile à Brazzaville : lavage extérieur, aspiration intérieure et nettoyage des surfaces. Pick-up/4x4 selon gabarit.</p>
+                                <div class="footer-social">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="footer-news">
+                            <div class="footer-col-heading">
+                                <h3>Dernières nouvelles</h3>
+                                <span class="line"></span>
+                            </div>
+                            <div class="footer-body">
+                                <div class="footer-news-list">
+                                    <ul>
+                                        <li>
+                                            <div class="footer-news-content">
+                                                <div class="footer-news-content-image">
+                                                    <img src="assets/images/carwash1-imag.jpg" class="img-fluid" alt="img">
+                                                </div>
+                                                <div class="footer-news-content-info">
+                                                    <h3>Even all powerful painting has no control</h3>
+                                                    <h4>Feb 20, 2025</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer-news-content">
+                                                <div class="footer-news-content-image">
+                                                    <img src="assets/images/carwash1-imag.jpg" class="img-fluid" alt="img">
+                                                </div>
+                                                <div class="footer-news-content-info">
+                                                    <h3>Even all powerful painting has no control</h3>
+                                                    <h4>Feb 20, 2025</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="footer-links">
+                            <div class="footer-col-heading">
+                                <h3>Liens rapides</h3>
+                                <span class="line"></span>
+                            </div>
+                            <div class="footer-body">
+                                <ul class="footer-links-list">
+                                    <li>
+                                        <a href="index.html">Accueil</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/about-us.html">À propos</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/services.html">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages/our-team.html">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bopeto.vercel.app/">Réserver</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="footer-contact">
+                            <div class="footer-col-heading">
+                                <h3>Des questions ?</h3>
+                                <span class="line"></span>
+                            </div>
+                            <div class="footer-body">
+                                <ul class="footer-contact-list">
+                                    <li>
+                                        <div class="footer-contact-inner">
+                                            <i class="fa fa-map-marker"></i>
+                                            <a href="#">Brazzaville, CG</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-contact-inner">
+                                            <i class="fa fa-phone"></i>
+                                            <a href="#">(+242) 06 866 58 75</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-contact-inner">
+                                            <i class="fa fa-envelope"></i>
+                                            <a href="#">contact@carbopeto.com</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p>Copyright © Tous droits réservés | Modèle réalisé par Pentabay</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script tag -->
+    <script src="assets/js/jquery-3.6.0.js"></script>
+	<script src="npm/%40popperjs/core%402.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+	<script src="ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3a/animate.min.css"></script> -->
+    <script src="aos%402.3.1/dist/aos.js"></script>
+	<script src="assets/js/main.js"></script>
+    <script src="assets/js/slick-animation.js"></script>
+    <script src="assets/js/slickSlides.js"></script>
+		
+</body>
+</html>
